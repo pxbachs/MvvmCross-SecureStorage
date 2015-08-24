@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>FSB.MvvmCross.Plugins.SecureStorage</id>
-        <version>1.0.9</version>
+        <version>1.0.0</version>
         <authors>Bach Pham</authors>
-        <iconUrl>http://f.cl.ly/items/1307401C3x2g3F2p2Z36/Logo.png</iconUrl>
-        <licenseUrl>https://github.com/paulcbetts/splat/blob/master/COPYING</licenseUrl>
-        <projectUrl>https://github.com/paulcbetts/splat</projectUrl>
+        <iconUrl>https://github.com/pxbachs/MvvmCross-SecureStorage/blob/master/Resources/Logo.png</iconUrl>
+        <licenseUrl>https://github.com/pxbachs/MvvmCross-SecureStorage/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/pxbachs/MvvmCross-SecureStorage</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>A library to make things cross-platform that should be</description>
-        <summary>A library to make things cross-platform that should be</summary>
+        <description>Secure Storage</description>
+        <summary>Secure Storage</summary>
         <tags>portable</tags>
         <dependencies>
 		  <dependency id="MvvmCross.HotTuna.CrossCore" version="3.5.1" />
