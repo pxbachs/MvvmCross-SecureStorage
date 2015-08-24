@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>FSB.MvvmCross.Plugins.SecureStorage</id>
+        <version>1.0.9</version>
+        <authors>Bach Pham</authors>
+        <iconUrl>http://f.cl.ly/items/1307401C3x2g3F2p2Z36/Logo.png</iconUrl>
+        <licenseUrl>https://github.com/paulcbetts/splat/blob/master/COPYING</licenseUrl>
+        <projectUrl>https://github.com/paulcbetts/splat</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A library to make things cross-platform that should be</description>
+        <summary>A library to make things cross-platform that should be</summary>
+        <tags>portable</tags>
+        <dependencies>
+		  <dependency id="MvvmCross.HotTuna.CrossCore" version="3.5.1" />
+		  <dependency id="MvvmCross.HotTuna.MvvmCrossLibraries" version="3.5.1" />
+		  <dependency id="MvvmCross.PortableSupport" version="3.5.1" />
+		</dependencies>
+    </metadata>
+
+    <files>
+    	
+
+    	<file src="MvvmCross-SecureStorage/bin/Release/FSB.MvvmCross.Plugins.SecureStorage.dll" target="lib/portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch/FSB.MvvmCross.Plugins.SecureStorage.dll" />
+    	<!--file src="MvvmCross-SecureStorage/bin/Release/FSB.MvvmCross.Plugins.SecureStorage.dll.mdb" target="lib/portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch+Xamarin.iOS10/FSB.MvvmCross.Plugins.SecureStorage.dll.mdb" /-->
+
+    	<!-- Android -->
+    	<file src="MvvmCross-SecureStorage/bin/Release/FSB.MvvmCross.Plugins.SecureStorage.dll" target="lib/MonoAndroid/FSB.MvvmCross.Plugins.SecureStorage.dll" />
+    	<file src="MvvmCross-SecureStorage.Droid/bin/Release/FSB.MvvmCross.Plugins.SecureStorage.Droid.dll" target="lib/MonoAndroid/FSB.MvvmCross.Plugins.SecureStorage.Droid.dll" />
+    	<file src="MvvmCross-SecureStorage.Droid/SecureStoragePluginBootstrap.cs.pp" target="content/MonoAndroid/Bootstrap/SecureStoragePluginBootstrap.cs.pp" />
+
+    	<!-- Touch -->
+    	<file src="MvvmCross-SecureStorage/bin/Release/FSB.MvvmCross.Plugins.SecureStorage.dll" target="lib/Xamarin.iOS10/FSB.MvvmCross.Plugins.SecureStorage.dll" />
+    	<file src="MvvmCross-SecureStorage.Touch/bin/Release/FSB.MvvmCross.Plugins.SecureStorage.Touch.dll" target="lib/Xamarin.iOS10/FSB.MvvmCross.Plugins.SecureStorage.Touch.dll" />
+    	<file src="MvvmCross-SecureStorage.Touch/SecureStoragePluginBootstrap.cs.pp" target="content/Xamarin.iOS10/Bootstrap/SecureStoragePluginBootstrap.cs.pp" />
+
+    </files>
+</package>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSB.MvvmCross.Plugins.SecureStorage", "MvvmCross-SecureStorage\FSB.MvvmCross.Plugins.SecureStorage.csproj", "{9A43A484-4D37-429E-92DC-041916BAE6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSB.MvvmCross.Plugins.SecureStorage.Touch", "MvvmCross-SecureStorage.Touch\FSB.MvvmCross.Plugins.SecureStorage.Touch.csproj", "{D1FCAE37-08E0-457F-91D8-D772FA6B22A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSB.MvvmCross.Plugins.SecureStorage.Droid", "MvvmCross-SecureStorage.Droid\FSB.MvvmCross.Plugins.SecureStorage.Droid.csproj", "{41F4D4CF-208A-481D-AD80-E5E2B92A7817}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{327636C2-3A32-45A5-916D-6DBCF80BEF5B}"
+	ProjectSection(SolutionItems) = preProject
+		SecureStorage.nuspec = SecureStorage.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41F4D4CF-208A-481D-AD80-E5E2B92A7817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F4D4CF-208A-481D-AD80-E5E2B92A7817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F4D4CF-208A-481D-AD80-E5E2B92A7817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F4D4CF-208A-481D-AD80-E5E2B92A7817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A43A484-4D37-429E-92DC-041916BAE6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A43A484-4D37-429E-92DC-041916BAE6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A43A484-4D37-429E-92DC-041916BAE6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A43A484-4D37-429E-92DC-041916BAE6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FCAE37-08E0-457F-91D8-D772FA6B22A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FCAE37-08E0-457F-91D8-D772FA6B22A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FCAE37-08E0-457F-91D8-D772FA6B22A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FCAE37-08E0-457F-91D8-D772FA6B22A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
