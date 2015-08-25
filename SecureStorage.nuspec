@@ -20,7 +20,7 @@
 
     <files>
     	
-
+    	<!-- common - portable -->
     	<file src="MvvmCross-SecureStorage/bin/Release/FSB.MvvmCross.Plugins.SecureStorage.dll" target="lib/portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch/FSB.MvvmCross.Plugins.SecureStorage.dll" />
     	<!--file src="MvvmCross-SecureStorage/bin/Release/FSB.MvvmCross.Plugins.SecureStorage.dll.mdb" target="lib/portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch+Xamarin.iOS10/FSB.MvvmCross.Plugins.SecureStorage.dll.mdb" /-->
 
